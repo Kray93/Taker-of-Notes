@@ -5,7 +5,7 @@ const app = express();
 let PORT = 3000 || process.env.PORT;
 
 
-app.use(express.urlencoded({extended:true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
@@ -18,6 +18,6 @@ const apiRoute = require("./route/apiRoute");
 app.use(apiRoute);
 
 // server listen
-app.listen(PORT, ()=>{
+app.listen(PORT, () => {
     console.log(`PORT ${PORT} listening!`);
 });
