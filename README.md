@@ -4,7 +4,10 @@
 
 The reason for developing this app is to easily add, edit and even delete unwanted notes. Keep your TO-DOs organized and ditch the sticky note and pen... because, who has a pen when you need one?
 
+## Link to deployed App
+* Click [here](https://mighty-sierra-28845.herokuapp.com/) to use!
 ![Note Taker](./public/assets/images/notes.gif)
+
 
 ## Built With
 
